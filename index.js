@@ -16,7 +16,7 @@ console.log("");
 const grilledCheese = createMenuItem("Grilled Cheese", 8, "Lunch");
 const hamSandwich = createMenuItem("Ham Sandwich", 12, "Lunch");
 const cheeseGritts = createMenuItem("Cheese Grits", 8, "Breakfast"); 
-const cheeryCoke = createMenuItem("Cherry Coke", 3, "Drinks");
+const cherryCoke = createMenuItem("Cherry Coke", 3, "Drinks");
 console.log("The answer to task 1 b is " , grilledCheese, hamSandwich, cheeseGritts); 
 console.log("");
 
@@ -39,6 +39,16 @@ burger.discount = function(indentification){
 }
 burger.discount("student")
 console.log("")
+
+// function priceDiscount(menu, indentification) {
+//   let options = {latte.cost || breakfastBurrito.price || grilledCheese.price ,hamSandwich, cheeseGritts, cherryCoke}
+//   if (indentification === 'teacher' || indentification === 'student'){
+//     console.log(menu.price * 0.75)
+//   }else{
+//     console.log(menu)
+//   }
+// }
+// price.discount(breakfastBurrito, "student")
 
 ///////////////Reviews (MVP)///////////////////
 
